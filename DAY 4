@@ -1,0 +1,61 @@
+IsEven?
+
+import java.io.*;
+import  java.util.*;
+class UserMainCode
+{
+ public int isEven(int input1){
+  if(input1%2==0)
+   return 2;
+  else
+   return 1;
+                     
+ }
+}
+
+IsOdd?
+
+import java.io.*;
+import  java.util.*;
+class UserMainCode
+{
+ public int isEven(int input1){
+  if(input1%2!=0)
+   return 2;
+  else
+   return 1;
+ }
+}
+
+Return the last digit of the given number.
+
+import java.io.*;
+import  java.util.*;
+class UserMainCode
+{
+ public int lastDigitOf(int input1){
+     if(input1<0)
+  {
+   input1*=-1;
+  }
+  int n=input1%10;
+  return n;
+ }
+}
+
+Return the second last digit of the given number.
+
+import java.io.*;
+import  java.util.*;
+class UserMainCode
+{
+ public int secondLastDigitOf(int input1){
+  if(input1>=-9 && input1<=9)
+   return -1;
+   if(input1<0)
+   input1*=-1;
+  input1/=10;
+  int n=input1%10;
+  return n;
+ }
+}
