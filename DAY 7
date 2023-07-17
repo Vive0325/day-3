@@ -1,0 +1,103 @@
+Number of Prime numbers in specified range.
+  
+  import java.io*;
+import java.util.*;
+class UserMainCode
+{
+  public int countPrimeInRange(int input1,int input2)
+  {
+ int k=2;   
+           int d=input1,i,c=0; 
+           int p=0;
+           int cou=0;
+// Read only region end
+
+while(d<=input2){
+    for(i=2;i<d;i++)
+    {
+        if(d%i==0)
+    {
+        c++; 
+    }
+    }
+        if(c==0)
+        {
+            cou++;
+            System.out.println(d);
+            }
+            d++;
+            c=0;
+            }
+            return cou;
+            }
+}
+
+All Digits Count
+
+  import java.io*;
+import java.util.*;
+class UserMainCode
+{
+   public int allDigitsCount(int input1)
+{
+   String str=Integer.toString(input1);
+   return str.length();
+  }
+}
+
+Unique Digit Count
+
+  import java.io.*;
+import  java.util.*;
+
+class UserMainCode{
+
+public int uniqueDigitsCount(int input1){
+
+String str = Integer.toString(input1);
+
+int len=str.length();   
+
+int count=0;
+
+for(int i=0;i<len-1;i++){           
+
+for(int j=i+1;j<len;j++){               
+
+if(str.charAt(i)==str.charAt(j)) {           
+
+count++;                     
+break;                 
+}} 
+ }       
+  return len-count;   
+}}
+
+Non-Repeated Digits Count
+
+  import java.io.*;
+import  java.util.*;
+class UserMainCode
+{
+public int nonRepeatDigitsCount(int input1){
+String str = Integer.toString(input1);
+int len=str.length();
+int count=0,pcount=0;
+for(int i=0;i<len;i++)
+{
+          count=0;
+for(int j=0;j<len;j++)
+{
+                if(i!=j)
+if(str.charAt(i)==str.charAt(j))
+{
+count++;
+break;
+}
+}
+            if(count==0)
+              pcount++;
+}
+return pcount;
+}
+}
