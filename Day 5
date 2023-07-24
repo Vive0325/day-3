@@ -1,4 +1,4 @@
-Is N an exact multiple of M?
+1.Is N an exact multiple of M?
 
 import java.io.*;
 import  java.util.*;
@@ -20,7 +20,7 @@ else
 }}
 
 
-Of the given 5 numbers, How many are even?
+2.Of the given 5 numbers, How many are even?
 
 import java.io.*;
 import  java.util.*;
@@ -42,7 +42,7 @@ if(input5%2==0)
 
 return count; 
 
-Of the given 5 numbers, How many are odd?
+3.Of the given 5 numbers, How many are odd?
 
 import java.io.*;
 
@@ -71,7 +71,7 @@ public int countEvens(int input1,int input2,int input3,int input4,int input5){
 
     }}
 
-Of the given 5 numbers, How many are even or odd?
+4.Of the given 5 numbers, How many are even or odd?
 
 import java.io.*;
 import  java.util.*;
