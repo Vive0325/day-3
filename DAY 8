@@ -1,4 +1,4 @@
-digitSum:
+1.digitSum:
 
 import java.io.*;
 import  java.util.*;
@@ -37,7 +37,7 @@ class UserMainCode
 
 
 
-Even Digits' Sum:
+2.Even Digits' Sum:
 
 import java.io.*;
 import  java.util.*;
@@ -58,7 +58,7 @@ return sum;
 
 
 
-Odd Digits' Sum:
+3.Odd Digits' Sum:
 
 import java.io.*;
 import  java.util.*;
@@ -78,7 +78,7 @@ return sum;
 
 
 
-Even OR Odd Digits' Sum:
+4.Even OR Odd Digits' Sum:
 
 import java.io.*;
 import  java.util.*;
