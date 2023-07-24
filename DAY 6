@@ -1,4 +1,4 @@
-isPrime
+1.isPrime
 
 import java.io.*;
 import  java.util.*;
@@ -18,7 +18,7 @@ return 1;
  }
 }
 
-FACTORIAL of a number
+2.FACTORIAL of a number
 
 import java.io.*;
 import  java.util.*;
@@ -34,7 +34,7 @@ return fact;
  }
 }
 
-nth Fibonacci: Write a function to return the nth number in the Fibonacci series.
+3.nth Fibonacci: Write a function to return the nth number in the Fibonacci series.
 
 import java.io.*;
 import  java.util.*;
@@ -50,7 +50,7 @@ if(input1==2)
  }
 }
 
-Nth Prime
+4.Nth Prime
 
 import java.io.*;
 import  java.util.*;
