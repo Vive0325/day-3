@@ -1,4 +1,4 @@
- Is Palindrome Number?
+1. Is Palindrome Number?
 
 import java.io.*;
 import  java.util.*;
@@ -21,8 +21,7 @@ String str=Integer.toString(input1);
 
 
 
-
-Is Palindrome possible?
+2.Is Palindrome possible?
 
 import java.io.*;
 import  java.util.*;
@@ -49,7 +48,7 @@ Arrays.fill(count, 0); // to initialize all values to zero
 
 
 
-Create PIN using three given input numbers
+3.Create PIN using three given input numbers
 
 import java.io.*;
 import  java.util.*;
@@ -93,7 +92,7 @@ int arr[]={input1,input2,input3};
 
 
 
-Weight of a hill pattern
+4.Weight of a hill pattern
 
 import java.io.*;
 import  java.util.*;
