@@ -1,4 +1,4 @@
-Write a program to accept a number N and print whether it is positive, negative or zero
+1.Write a program to accept a number N and print whether it is positive, negative or zero
 
 public class Main
 {
@@ -14,7 +14,7 @@ public class Main
   }
 }
 
-Write a program to accept two numbers and print the greater value of the two
+2.Write a program to accept two numbers and print the greater value of the two
 
 import java.util.*;
 public class Sum even Odd
@@ -36,7 +36,7 @@ public class Sum even Odd
 }
 }
 
-Write a program to accept a number N and print whether the number is EVEN or ODD
+3.Write a program to accept a number N and print whether the number is EVEN or ODD
 
 import java.util.*;
 public class evenodd
@@ -56,7 +56,7 @@ public class evenodd
 }
 }
 
-Write a program to accept two numbers and print whether their sum is EVEN or ODD
+4.Write a program to accept two numbers and print whether their sum is EVEN or ODD
 
 public class Main
 {
