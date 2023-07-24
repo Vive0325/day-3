@@ -1,4 +1,4 @@
-Return second word in Uppercase
+1.Return second word in Uppercase
 
 import java.io.*;
 import  java.util.*;
@@ -23,7 +23,7 @@ return strArray[1].toUpperCase();
 
 
 
-isPalindrome
+2.isPalindrome
 
 import java.io.*;
 import  java.util.*;
@@ -48,7 +48,7 @@ String str=input1.toLowerCase();
 
 
 
-Weight of String: Write a function that takes a string as input and calculates the weight of the string as per rules mentioned below.
+3.Weight of String: Write a function that takes a string as input and calculates the weight of the string as per rules mentioned below.
 
 
 import java.io.*;
