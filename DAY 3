@@ -1,4 +1,4 @@
-IsEven?
+1.IsEven?
 
 import java.io.*;
 import  java.util.*;
@@ -13,8 +13,7 @@ class UserMainCode
  }
 }
 
-IsOdd?
-
+2.IsOdd?
 import java.io.*;
 import  java.util.*;
 class UserMainCode
@@ -27,7 +26,7 @@ class UserMainCode
  }
 }
 
-Return the last digit of the given number.
+3.Return the last digit of the given number.
 
 import java.io.*;
 import  java.util.*;
@@ -43,7 +42,7 @@ class UserMainCode
  }
 }
 
-Return the second last digit of the given number.
+4.Return the second last digit of the given number.
 
 import java.io.*;
 import  java.util.*;
