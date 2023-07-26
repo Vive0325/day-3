@@ -92,7 +92,7 @@ String str=input1.toUpperCase();
 
 
 
-Most Frequent Digit – You need to find which digit occurs most number of times across the four given input numbers.
+4.Most Frequent Digit – You need to find which digit occurs most number of times across the four given input numbers.
 
 
 import java.io.*;
